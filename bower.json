@@ -1,0 +1,19 @@
+{
+  "name": "ar-xmas-project",
+  "private": true,
+  "dependencies": {
+    "JSARToolKit": "https://github.com/kig/JSARToolKit.git",
+    "three.js": "#0.73.0",
+    "webcamjs": "#1.0.6"
+  },
+  "devDependencies": {
+    "chai": "~3.4.2",
+    "mocha": "~2.3.4"
+  },
+  "overrides": {
+    "JSARToolKit": {
+      "main": "./JSARToolKit.js",
+      "dependencies": {}
+    }
+  }
+}
